@@ -1,0 +1,17 @@
+/* style.css */
+.main { background-color: #f3f4f6; }
+h1, h2, h3 { color: #111827; font-family: 'Inter', sans-serif; font-weight: 700; }
+
+[data-testid="stSidebar"] { background-color: #1f2937; color: white; }
+[data-testid="stSidebar"] label, [data-testid="stSidebar"] h2 { color: white !important; }
+
+.stButton>button {
+    background-color: #2563eb;
+    color: white;
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    font-weight: 600;
+    width: 100%;
+    border: none;
+}
+.stButton>button:hover { background-color: #1d4ed8; }
